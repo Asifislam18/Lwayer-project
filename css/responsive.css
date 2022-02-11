@@ -1,0 +1,1301 @@
+/* Responsive css code goes here */
+
+/* 
+  Most of the low resoulation mobile devices like: Galaxy Fold
+*/
+@media (min-width: 279px) and (max-width: 319px){
+/*code start*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/************************************************
+* Lawyer code start **
+**************************************************/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+}
+.header .bg-light{
+	background: #fff !important;
+
+}
+.header .navbar-light .navbar-nav .nav-link{
+	color: #28377e;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 15px;
+}
+.header .navbar-light .navbar-nav .nav-link.active{
+	color: #283772;
+
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light.navbar-nav .nav-link:focus{
+	color: #f2622c;
+}
+.slider{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 0px 14px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+}
+.slider h2{
+	font-size: 26px;
+	line-height: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.arrow{
+	width: 100%;
+	padding: 150px 0px 0px;
+	margin: 0px -3px;
+
+}
+.arrow img{
+	0px 0px 0px
+}
+.who-we{
+	 width: 100%;
+	 padding: 80px 0px;
+	 margin: 0px 14px;
+
+}
+.who-we .line{
+	margin: 45px 0px 10px;
+}
+.who-we h2{
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #283772;
+	margin: 0px 0px 20px;
+}
+.who-we p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #b4b4b5;
+
+}
+
+.inner-img{
+	width: 100%;
+	margin: 0px 0px 0px 5px;
+	text-align: center;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 22px;
+	margin: 0px 0px 0px 9px;
+	background: url("../images/wbg.png") center top no-repeat;
+	background-size: cover;
+}
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+}
+.title img{
+	margin-bottom: 10px;
+
+}
+.title h2{
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #283772;
+}
+.what-we-do .inner-box{
+	width: 100%;
+	position: relative;
+}
+.what-we-do .inner-box .do-img{
+	width: 100%;
+	padding: 10px 0px 0px;
+}
+
+.inner-box .inner-text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	text-align: center;
+}
+.inner-box .inner-text h4{
+	font-size: 10px;
+	line-height: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+.long-arrow{
+	width: 100%;
+	margin: 75px 0px 0px;
+}
+
+.Attorney{
+	width: 100%;
+	padding: 80px 5px;
+	margin: 0px 15px;
+	background: url("../images/attomy.png") center top no-repeat;
+	background-size: cover;
+
+} 
+.Attorney .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: left;
+	
+}
+.Attorney .title img{
+	margin-bottom: 10px;
+
+}
+.Attorney .title h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.Attorney .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #686fa6;
+
+}
+.Attorney .title .btn-link{
+	font-weight: 600px;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.Attorney .inner-box{
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 15px;
+}
+.Attorney .inner-box img{
+	width: 100%;
+}
+.Attorney .inner-box .inner-text {
+	width: 100%;
+	position: absolute;
+	top: 78%;
+	left: 35px;
+
+}
+.Attorney .inner-box .inner-text h4{
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+
+}
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-language{
+	width: 100%;
+}
+.inner-language h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600;
+	color: #28377e;
+}
+
+.inner-language p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #c3c2c2;
+
+}
+.inner-language .btn-link {
+	font-weight: 600px;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+
+}
+.Contact-section{
+	width: 100%;
+}
+.Contact-section{
+	width: 100%;
+	padding: 80px;
+	margin: 0px 13px;
+	background: url("../images/attomy.png") center top no-repeat;
+	background-size: cover;
+}
+.Contact-section .title h2{
+	width: 100%;
+	font-size: 17px;
+	padding: 0px 0px 80px;
+	text-align:center; 
+	color: #fff;
+}
+.Contact-section .btn-custom{
+	background-color: #f2622c;
+	color: #fff;
+	padding: 5px 23px;
+	border-radius: 0;
+	font-weight: 700;
+	margin-top: 40px;
+
+}
+.Contact-section .form-control{
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #7886c5;
+	border-radius: 0;
+	color: #fff !important;
+}
+.Contact-section .form-control:focus{
+	background-color: transparent;
+	border: 1px solid #7886c5;
+	outline: none;
+	box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+}
+.Contact-section .input::placeholder{
+color: white !important;
+font-weight: 600;
+}
+.Contact-section .input:placeholder{
+color: white !important;
+font-weight: 600;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+  font-weight: 600;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+  font-weight: 600;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white !important;
+  font-weight: 600;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white !important;
+  font-weight: 600;
+}
+
+.footer{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0px 13px 0px 13px;
+	background: url("../images/footer.png") center top no-repeat;
+	background-size: cover;
+}
+.footer .inner-footer p{
+	font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #b0b0b1;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+}
+
+/*code end*/
+}
+
+
+/*
+   most of the mobile mobile devices 
+*/
+ @media (min-width: 320px) and (max-width: 480px){
+    /*code start*/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+}
+.header .bg-light{
+	background: #fff !important;
+
+}
+.header .navbar-light .navbar-nav .nav-link{
+	color: #28377e;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 15px;
+}
+.header .navbar-light .navbar-nav .nav-link.active{
+	color: #283772;
+
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light.navbar-nav .nav-link:focus{
+	color: #f2622c;
+}
+.slider{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 0px 14px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+}
+.slider h2{
+	font-size: 26px;
+	line-height: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.arrow{
+	width: 100%;
+	padding: 150px 0px 0px;
+	margin: 0px -3px;
+
+}
+.arrow img{
+	0px 0px 0px
+}
+.who-we{
+	 width: 100%;
+	 padding: 80px 0px;
+	 margin: 0px 14px;
+
+}
+.who-we .line{
+	margin: 45px 0px 10px;
+}
+.who-we h2{
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #283772;
+	margin: 0px 0px 20px;
+}
+.who-we p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #b4b4b5;
+
+}
+
+.inner-img{
+	width: 100%;
+	margin: 0px 0px 0px 5px;
+	text-align: center;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 22px;
+	margin: 0px 0px 0px 9px;
+	background: url("../images/wbg.png") center top no-repeat;
+	background-size: cover;
+}
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+}
+.title img{
+	margin-bottom: 10px;
+
+}
+.title h2{
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #283772;
+}
+.what-we-do .inner-box{
+	width: 100%;
+	position: relative;
+}
+.what-we-do .inner-box .do-img{
+	width: 100%;
+	padding: 10px 0px 0px;
+}
+
+.inner-box .inner-text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	text-align: center;
+}
+.inner-box .inner-text h4{
+	font-size: 10px;
+	line-height: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+.long-arrow{
+	width: 100%;
+	margin: 75px 0px 0px;
+}
+
+.Attorney{
+	width: 100%;
+	padding: 80px 5px;
+	margin: 0px 15px;
+	background: url("../images/attomy.png") center top no-repeat;
+	background-size: cover;
+
+} 
+.Attorney .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: left;
+	
+}
+.Attorney .title img{
+	margin-bottom: 10px;
+
+}
+.Attorney .title h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.Attorney .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #686fa6;
+
+}
+.Attorney .title .btn-link{
+	font-weight: 600px;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.Attorney .inner-box{
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 15px;
+}
+.Attorney .inner-box img{
+	width: 100%;
+}
+.Attorney .inner-box .inner-text {
+	width: 100%;
+	position: absolute;
+	top: 78%;
+	left: 35px;
+
+}
+.Attorney .inner-box .inner-text h4{
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+
+}
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-language{
+	width: 100%;
+}
+.inner-language h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600;
+	color: #28377e;
+}
+
+.inner-language p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #c3c2c2;
+
+}
+.inner-language .btn-link {
+	font-weight: 600px;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+
+}
+.Contact-section{
+	width: 100%;
+}
+.Contact-section{
+	width: 100%;
+	padding: 80px;
+	margin: 0px 13px;
+	background: url("../images/attomy.png") center top no-repeat;
+	background-size: cover;
+}
+.Contact-section .title h2{
+	width: 100%;
+	font-size: 17px;
+	padding: 0px 0px 80px;
+	text-align:center; 
+	color: #fff;
+}
+.Contact-section .btn-custom{
+	background-color: #f2622c;
+	color: #fff;
+	padding: 5px 23px;
+	border-radius: 0;
+	font-weight: 700;
+	margin-top: 40px;
+
+}
+.Contact-section .form-control{
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #7886c5;
+	border-radius: 0;
+	color: #fff !important;
+}
+.Contact-section .form-control:focus{
+	background-color: transparent;
+	border: 1px solid #7886c5;
+	outline: none;
+	box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+}
+.Contact-section .input::placeholder{
+color: white !important;
+font-weight: 600;
+}
+.Contact-section .input:placeholder{
+color: white !important;
+font-weight: 600;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+  font-weight: 600;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+  font-weight: 600;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white !important;
+  font-weight: 600;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white !important;
+  font-weight: 600;
+}
+
+.footer{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0px 13px 0px 13px;
+	background: url("../images/footer.png") center top no-repeat;
+	background-size: cover;
+}
+.footer .inner-footer p{
+	font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #b0b0b1;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+}
+
+/*code end*/
+}
+
+/*
+  most of the mobile devices, low resoulation Tablet, Ipad.
+*/
+@media (min-width: 481px) and (max-width: 767px){
+   
+/*code start*/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+}
+.header .bg-light{
+	background: #fff !important;
+
+}
+.header .navbar-light .navbar-nav .nav-link{
+	color: #28377e;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 15px;
+}
+.header .navbar-light .navbar-nav .nav-link.active{
+	color: #283772;
+
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light.navbar-nav .nav-link:focus{
+	color: #f2622c;
+}
+.slider{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 0px 14px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+}
+.slider h2{
+	font-size: 26px;
+	line-height: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.arrow{
+	width: 100%;
+	padding: 150px 0px 0px;
+	margin: 0px -3px;
+
+}
+.arrow img{
+	0px 0px 0px
+}
+.who-we{
+	 width: 100%;
+	 padding: 80px 0px;
+	 margin: 0px 14px;
+
+}
+.who-we .line{
+	margin: 45px 0px 10px;
+}
+.who-we h2{
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #283772;
+	margin: 0px 0px 20px;
+}
+.who-we p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #b4b4b5;
+
+}
+
+.inner-img{
+	width: 100%;
+	margin: 0px 0px 0px 5px;
+	text-align: center;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 22px;
+	margin: 0px 0px 0px 9px;
+	background: url("../images/wbg.png") center top no-repeat;
+	background-size: cover;
+}
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+}
+.title img{
+	margin-bottom: 10px;
+
+}
+.title h2{
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #283772;
+}
+.what-we-do .inner-box{
+	width: 100%;
+	position: relative;
+}
+.what-we-do .inner-box .do-img{
+	width: 100%;
+	padding: 10px 0px 0px;
+}
+
+.inner-box .inner-text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	text-align: center;
+}
+.inner-box .inner-text h4{
+	font-size: 10px;
+	line-height: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+.long-arrow{
+	width: 100%;
+	margin: 75px 0px 0px;
+}
+
+.Attorney{
+	width: 100%;
+	padding: 80px 5px;
+	margin: 0px 15px;
+	background: url("../images/attomy.png") center top no-repeat;
+	background-size: cover;
+
+} 
+.Attorney .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: left;
+	
+}
+.Attorney .title img{
+	margin-bottom: 10px;
+
+}
+.Attorney .title h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.Attorney .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #686fa6;
+
+}
+.Attorney .title .btn-link{
+	font-weight: 600px;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.Attorney .inner-box{
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 15px;
+}
+.Attorney .inner-box img{
+	width: 100%;
+}
+.Attorney .inner-box .inner-text {
+	width: 100%;
+	position: absolute;
+	top: 78%;
+	left: 35px;
+
+}
+.Attorney .inner-box .inner-text h4{
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+
+}
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-language{
+	width: 100%;
+}
+.inner-language h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600;
+	color: #28377e;
+}
+
+.inner-language p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #c3c2c2;
+
+}
+.inner-language .btn-link {
+	font-weight: 600px;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+
+}
+.Contact-section{
+	width: 100%;
+}
+.Contact-section{
+	width: 100%;
+	padding: 80px;
+	margin: 0px 13px;
+	background: url("../images/attomy.png") center top no-repeat;
+	background-size: cover;
+}
+.Contact-section .title h2{
+	width: 100%;
+	font-size: 17px;
+	padding: 0px 0px 80px;
+	text-align:center; 
+	color: #fff;
+}
+.Contact-section .btn-custom{
+	background-color: #f2622c;
+	color: #fff;
+	padding: 5px 23px;
+	border-radius: 0;
+	font-weight: 700;
+	margin-top: 40px;
+
+}
+.Contact-section .form-control{
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #7886c5;
+	border-radius: 0;
+	color: #fff !important;
+}
+.Contact-section .form-control:focus{
+	background-color: transparent;
+	border: 1px solid #7886c5;
+	outline: none;
+	box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+}
+.Contact-section .input::placeholder{
+color: white !important;
+font-weight: 600;
+}
+.Contact-section .input:placeholder{
+color: white !important;
+font-weight: 600;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+  font-weight: 600;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+  font-weight: 600;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white !important;
+  font-weight: 600;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white !important;
+  font-weight: 600;
+}
+
+.footer{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0px 13px 0px 13px;
+	background: url("../images/footer.png") center top no-repeat;
+	background-size: cover;
+}
+.footer .inner-footer p{
+	font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #b0b0b1;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+}
+
+/*code end*/
+}
+
+/*
+  most of the mini ipad, mini notebook , teblet
+*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /*code start*/
+    .header{
+	width: 100%;
+	padding: 10px 0px;
+}
+.header .bg-light{
+	background: #fff !important;
+
+}
+.header .navbar-light .navbar-nav .nav-link{
+	color: #28377e;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 15px;
+}
+.header .navbar-light .navbar-nav .nav-link.active{
+	color: #283772;
+
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light.navbar-nav .nav-link:focus{
+	color: #f2622c;
+}
+.slider{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 0px 14px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+}
+.slider h2{
+	font-size: 26px;
+	line-height: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.arrow{
+	width: 100%;
+	padding: 150px 0px 0px;
+	margin: 0px -3px;
+
+}
+.arrow img{
+	0px 0px 0px
+}
+.who-we{
+	 width: 100%;
+	 padding: 80px 0px;
+	 margin: 0px 14px;
+
+}
+.who-we .line{
+	margin: 45px 0px 10px;
+}
+.who-we h2{
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #283772;
+	margin: 0px 0px 20px;
+}
+.who-we p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #b4b4b5;
+
+}
+
+.inner-img{
+	width: 100%;
+	margin: 0px 0px 0px 5px;
+	text-align: center;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 22px;
+	margin: 0px 0px 0px 9px;
+	background: url("../images/wbg.png") center top no-repeat;
+	background-size: cover;
+}
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+}
+.title img{
+	margin-bottom: 10px;
+
+}
+.title h2{
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #283772;
+}
+.what-we-do .inner-box{
+	width: 100%;
+	position: relative;
+}
+.what-we-do .inner-box .do-img{
+	width: 100%;
+	padding: 10px 0px 0px;
+}
+
+.inner-box .inner-text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	text-align: center;
+}
+.inner-box .inner-text h4{
+	font-size: 10px;
+	line-height: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+.long-arrow{
+	width: 100%;
+	margin: 75px 0px 0px;
+}
+
+.Attorney{
+	width: 100%;
+	padding: 80px 5px;
+	margin: 0px 15px;
+	background: url("../images/attomy.png") center top no-repeat;
+	background-size: cover;
+
+} 
+.Attorney .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: left;
+	
+}
+.Attorney .title img{
+	margin-bottom: 10px;
+
+}
+.Attorney .title h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.Attorney .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #686fa6;
+
+}
+.Attorney .title .btn-link{
+	font-weight: 600px;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.Attorney .inner-box{
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 15px;
+}
+.Attorney .inner-box img{
+	width: 100%;
+}
+.Attorney .inner-box .inner-text {
+	width: 100%;
+	position: absolute;
+	top: 78%;
+	left: 35px;
+
+}
+.Attorney .inner-box .inner-text h4{
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+
+}
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-language{
+	width: 100%;
+}
+.inner-language h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600;
+	color: #28377e;
+}
+
+.inner-language p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #c3c2c2;
+
+}
+.inner-language .btn-link {
+	font-weight: 600px;
+	color: #f2622c;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+
+}
+.Contact-section{
+	width: 100%;
+}
+.Contact-section{
+	width: 100%;
+	padding: 80px;
+	margin: 0px 13px;
+	background: url("../images/attomy.png") center top no-repeat;
+	background-size: cover;
+}
+.Contact-section .title h2{
+	width: 100%;
+	font-size: 17px;
+	padding: 0px 0px 80px;
+	text-align:center; 
+	color: #fff;
+}
+.Contact-section .btn-custom{
+	background-color: #f2622c;
+	color: #fff;
+	padding: 5px 23px;
+	border-radius: 0;
+	font-weight: 700;
+	margin-top: 40px;
+
+}
+.Contact-section .form-control{
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #7886c5;
+	border-radius: 0;
+	color: #fff !important;
+}
+.Contact-section .form-control:focus{
+	background-color: transparent;
+	border: 1px solid #7886c5;
+	outline: none;
+	box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+}
+.Contact-section .input::placeholder{
+color: white !important;
+font-weight: 600;
+}
+.Contact-section .input:placeholder{
+color: white !important;
+font-weight: 600;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+  font-weight: 600;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+  font-weight: 600;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white !important;
+  font-weight: 600;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white !important;
+  font-weight: 600;
+}
+
+.footer{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	margin: 0px 13px 0px 13px;
+	background: url("../images/footer.png") center top no-repeat;
+	background-size: cover;
+}
+.footer .inner-footer p{
+	font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #b0b0b1;
+  text-align: center;
+
+}
+
+    /*code end*/
